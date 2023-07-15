@@ -39,9 +39,20 @@ h1 {
     background-color: #E5E7EB;
 }
 
+.section-four {
+    padding: 96px 256px;
+    color: #E5E7EB;
+}
+
 .section-three h2 {
     display: flex;
     justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.section-four h2 {
+    color: #FFF;
     padding: 0;
     margin: 0;
 }
@@ -97,6 +108,11 @@ button.signup {
     color: white;
 }
 
+.blue-container .signup {
+    border: 2px solid #FFF;
+    padding: 6px 28px;
+}
+
 .img-container {
     display: flex;
     justify-content: center;
@@ -116,4 +132,13 @@ button.signup {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.blue-container {
+    display: flex;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 48px 128px;
 }
