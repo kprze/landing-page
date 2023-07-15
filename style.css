@@ -54,6 +54,14 @@ h1 {
     padding: 32px 0;
 }
 
+.section-two img {
+    overflow: auto;
+    width: 178px;
+    height: 178px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
 .section-three h2 {
     display: flex;
     justify-content: flex-end;
@@ -102,6 +110,14 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 3;
+}
+
+.right-content img {
+    overflow: auto;
+    width: 600px;
+    border-radius: 0.5rem;
+    
 }
 
 button {
